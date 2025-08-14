@@ -10,8 +10,6 @@ KeyGuardLibrary.Set({
     falseData = falseData,
 })
 
-local Private_Key = ''
-
 local getkey = KeyGuardLibrary.getLink()
 
 local response = KeyGuardLibrary.validatePremiumKey(Private_Key)
@@ -29,3 +27,5 @@ else
         Time = 4,
     })
 end
+
+local Private_Key = 'test'
