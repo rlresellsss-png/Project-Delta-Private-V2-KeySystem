@@ -12,7 +12,7 @@ KeyGuardLibrary.Set({
 
 local getkey = KeyGuardLibrary.getLink()
 
-local response = KeyGuardLibrary.validatePremiumKey(Private_Key)
+local response = KeyGuardLibrary.validatePremiumKey(key)
 
 if response == trueData then
     loadstring(
@@ -24,8 +24,7 @@ else
     game.StarterGui:SetCore('SendNotification', {
         Title = 'Key Failed!',
         Text = 'Please Check Key And Try Again',
-        Time = 4,
+        Time = 3,
     })
 end
 
-local Private_Key = 'test'
