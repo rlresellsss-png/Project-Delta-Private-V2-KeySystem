@@ -4,7 +4,7 @@ local falseData = "1fe4d7a023ec4a75af1d80590fe6cc5c"
 
 KeyGuardLibrary.Set({
 	publicToken = "a9389132077740de915b96812d00be3c",
-	privateToken = "641d5eef305f45cf9af2f91c53b36f85",
+	privateToken = "5df313d951524e079bfaa70534dd6eda",
 	trueData = trueData,
 	falseData = falseData,
 })
@@ -26,3 +26,4 @@ else
         Time = 4,
     })
 end
+
