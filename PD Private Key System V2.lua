@@ -15,13 +15,13 @@ local Fluent = loadstring(
         'https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua'
     )
 )()
-local Key = 'test'
+local Key = ''
 
 local Window = Fluent:CreateWindow({
     Title = 'Project Delta Private Script - Key System',
     SubTitle = 'by - breakneckv09',
-    TabWidth = 160,
-    Size = UDim2.fromOffset(490, 270),
+    TabWidth = 182,
+    Size = UDim2.fromOffset(515, 270),
     Acrylic = false,
     Theme = 'Dark',
     MinimizeKey = Enum.KeyCode.LeftControl,
@@ -59,7 +59,7 @@ local Checkkey = Tabs.KeySys:AddButton({
             )()
         else
             game.StarterGui:SetCore('SendNotification', {
-                Title = 'Key Failed',
+                Title = 'Key Failed!',
                 Text = 'Please Check Key And Try Again',
                 Time = 3,
             })
@@ -68,12 +68,12 @@ local Checkkey = Tabs.KeySys:AddButton({
 })
 
 local Getkey = Tabs.KeySys:AddButton({
-    Title = 'Copy Store Link',
+    Title = 'Buy Keys Here',
     Description = '',
     Callback = function()
         game.StarterGui:SetCore('SendNotification', {
             Title = 'Copied Link!',
-            Text = '',
+            Text = 'Successfully Copied The Site Link',
             Time = 3,
         })
 
