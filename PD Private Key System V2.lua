@@ -52,11 +52,7 @@ local Checkkey = Tabs.KeySys:AddButton({
     Callback = function()
         local response = KeyGuardLibrary.validatePremiumKey(Key)
         if response == trueData then
-            loadstring(
-                game:HttpGet(
-                    'https://raw.githubusercontent.com/slotsuntiliwin/Project-Delta-Private-V2/refs/heads/main/Project%20Delta%20Private%20V2.lua'
-                )
-            )()
+            loadstring(game:HttpGet("https://cdn.authguard.org/virtual-file/4d400e6824e9433aa80112d3061fd37c"))()
         else
             game.StarterGui:SetCore('SendNotification', {
                 Title = 'Key Failed!',
@@ -82,3 +78,4 @@ local Getkey = Tabs.KeySys:AddButton({
 })
 
 Window:SelectTab(1)
+
